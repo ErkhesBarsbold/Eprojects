@@ -1,0 +1,1 @@
+find . \( -name "#*#" -o -name "*~" \) -type f -exec ls {} \; -exec rm {} \;
